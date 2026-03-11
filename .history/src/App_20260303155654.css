@@ -1,0 +1,122 @@
+/* ===== GOOGLE FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+/* ===== CSS VARIABLES (your color palette) ===== */
+:root {
+  --lavender: #c9b8f0;
+  --lavender-light: #ede8fa;
+  --blush: #f5b8c8;
+  --blush-light: #fde8ee;
+  --mint: #b2e0d4;
+  --mint-light: #e0f5f0;
+  --cream: #fdf8f2;
+  --text-dark: #3d2c4e;
+  --text-mid: #6b5b7b;
+  --text-light: #9b8aaa;
+  --white: #ffffff;
+  --shadow: 0 8px 32px rgba(180, 150, 210, 0.15);
+  --radius: 20px;
+  --font-display: 'DM Serif Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+/* ===== RESET & BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--cream);
+  color: var(--text-dark);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ===== SHARED UTILITIES ===== */
+.highlight {
+  color: var(--lavender);
+  font-style: italic;
+}
+
+.section-tag {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--lavender);
+  margin-bottom: 0.75rem;
+}
+
+.section-sub {
+  color: var(--text-light);
+  font-size: 1.05rem;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+section {
+  padding: 6rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--text-dark);
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.8rem;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--lavender), var(--blush));
+  color: white;
+  box-shadow: 0 4px 15px rgba(201, 184, 240, 0.4);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(201, 184, 240, 0.5);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text-mid);
+  border: 1.5px solid var(--lavender);
+}
+
+.btn-outline:hover {
+  background: var(--lavender-light);
+  transform: translateY(-2px);
+}
+
+.btn-sm {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.85rem;
+}

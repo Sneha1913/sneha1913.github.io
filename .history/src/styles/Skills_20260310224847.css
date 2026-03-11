@@ -1,0 +1,88 @@
+.skills-sub {
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  font-family: var(--font-mono);
+  margin-bottom: 3rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.skill-group {
+  background: var(--black-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: border-color 0.25s;
+}
+
+.skill-group:hover { border-color: var(--border-hover); }
+
+.skill-category {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-white);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.skill-icon { color: var(--green); font-size: 1rem; }
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background: var(--black-3);
+  border: 1px solid var(--border);
+  color: var(--text-mid);
+  border-radius: 6px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+  transition: all 0.2s;
+}
+
+.skill-tag:hover { border-color: var(--green); color: var(--green); background: var(--green-glow); }
+
+/* Soft skills full-width row */
+.soft-skills {
+  background: var(--black-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.soft-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.soft-tag {
+  background: transparent;
+  border: 1px solid rgba(149, 191, 71, 0.2);
+  color: var(--green-dim);
+  border-radius: 50px;
+  padding: 0.35rem 1rem;
+  font-size: 0.8rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.soft-tag:hover { border-color: var(--green); color: var(--green); background: var(--green-glow); }
+
+@media (max-width: 900px) { .skills-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .skills-grid { grid-template-columns: 1fr; } }
