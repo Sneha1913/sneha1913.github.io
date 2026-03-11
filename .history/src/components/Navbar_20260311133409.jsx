@@ -31,9 +31,14 @@ function Navbar() {
             </li>
           ))}
           <li>
-          <a  href="/resume.pdf" className="btn btn-green btn-sm" download="Sneha_Resume.pdf">
-           Resume ↓
-          </a>
+          <a 
+  href="/resume.pdf" 
+  className="btn btn-green btn-sm" 
+  target="_blank" 
+  rel="noreferrer"
+>
+  Resume ↗
+</a>
           </li>
         </ul>
 
