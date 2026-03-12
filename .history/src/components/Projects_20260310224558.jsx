@@ -3,12 +3,12 @@ import '../styles/Projects.css'
 const projects = [
   {
     num: '01',
-    title: 'Custom Shopify Theme — EGlobe',
-    desc: 'Engineered a fully custom Shopify theme from scratch using Liquid, JavaScript and CSS. Implemented custom sections, dynamic metafields, and optimised frontend assets — achieving a 35% reduction in page load time and measurable improvements in Core Web Vitals.',
-    tags: ['Shopify', 'Liquid', 'JavaScript', 'CSS3', 'Metafields'],
-    metric: '35% faster load time',
-    live: '#',
-    github: '#',
+    title: 'Headless Shopify Storefront — Maison',
+    desc: 'Built a fully custom headless e-commerce storefront from scratch using the Shopify Storefront API. Engineered a product listing page with dynamic filtering and sorting, a product detail page with image gallery and variant selection, a persistent cart drawer with localStorage, and seamless checkout redirect via Shopify hosted payment flow. Deployed as a static site on Netlify with zero build dependencies.',
+    tags: ['Shopify,Storefront API,GraphQL,JavaScript,CSS3,localStorage,Netlify'],
+    metric: 'Zero-dependency static deployment',
+    live: 'headless-shopify-first.netlify.app',
+    github: 'https://github.com/Sneha1913/headless-shopify',
   },
   {
     num: '02',
