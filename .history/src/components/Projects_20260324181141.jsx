@@ -22,11 +22,11 @@ const projects = [
   {
     num: '03',
     title: 'NestCraft – Headless Shopify Storefront',
-    desc: 'Built a fully custom headless e-commerce storefront using React and Shopify Storefront API with GraphQL. Implemented product listing with real-time search and collection filters, cart management with Zustand state, Shopify Cart API checkout integration, and an analytics dashboard with interactive Recharts visualizations. Deployed on Netlify with environment-based configuration.',
-    tags: ['React', 'Shopify API', 'GraphQL', 'Zustand', 'Recharts', 'Tailwind CSS', 'Netlify'],
-    metric: '100% custom headless architecture',
-    live: 'https://headless-shopify-react.netlify.app/',
-    github: 'https://github.com/Sneha1913/headless-shopify-react',
+    desc: 'Developed a scalable PHP MVC web application with RESTful API design, MySQL database architecture, role-based authentication and session management. Reduced application response time by 28% through optimised server-side logic and query tuning.',
+    tags: ['PHP', 'MySQL', 'REST API', 'MVC', 'Authentication'],
+    metric: '28% faster response time',
+    live: '#',
+    github: '#',
   },
   {
     num: '04',

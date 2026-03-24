@@ -26,7 +26,7 @@ const projects = [
     tags: ['React', 'Shopify API', 'GraphQL', 'Zustand', 'Recharts', 'Tailwind CSS', 'Netlify'],
     metric: '100% custom headless architecture',
     live: 'https://headless-shopify-react.netlify.app/',
-    github: 'https://github.com/Sneha1913/headless-shopify-react',
+    github: '#',
   },
   {
     num: '04',
